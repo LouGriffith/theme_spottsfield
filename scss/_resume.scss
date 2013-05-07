@@ -1,0 +1,97 @@
+section{
+	margin-bottom: 20px;
+}
+
+.section-title h2{
+	font-size: 1.2em;
+	text-transform: uppercase;
+	color: $grey;
+	line-height: 1em;
+	margin:0px 0px 10px;
+	letter-spacing: .3em;
+}
+
+.orgBox{
+	margin-bottom: 40px;
+}
+
+header.org{
+	margin-bottom: 10px;
+}
+
+h3.orgTitle{
+	margin: 0px;
+	line-height: 1.3em;
+}
+
+div.orgDetails{
+	margin-bottom: 10px;
+}
+
+div.orgProjects{
+	border-left: 1px solid #ddd;
+}
+
+.projectBox{
+	display: block;
+	margin-bottom: 10px;
+	padding: 5px;
+	margin-left: 10px;
+}
+
+.projectRow{
+	position: relative;
+	padding-bottom: 5px;
+}
+
+.projectName{
+	float: left;
+	width: 60%;
+}
+
+.projectName h4{
+	line-height: 1.1em;
+	margin: 0px;
+}
+
+.projectYear{
+	float: left;
+	width: 50px;
+}
+
+.projectClient{
+	width: 16%;
+	float:right;
+	text-align: right;
+}
+
+.projectRole{
+	width: 16%;
+	float:right;
+	text-align: right;
+}
+
+.projectInfo{
+}
+
+.projectMonth{
+	float: left;
+	width: 50px;
+}
+
+.projectDesc{
+	float: left;
+	width: 60%;
+}
+
+.projectLink{
+	float: right;
+	width: 100px;
+	text-align: right;
+	font-size: .9em;
+	padding: 5px;
+}
+
+#main .row hr{ 
+	border-bottom: 1px solid $light-grey;
+}

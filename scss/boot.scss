@@ -1,0 +1,258 @@
+@import "bits";
+
+body {
+	@include font-stack-body;
+	font-family: 'Lato', sans-serif;
+	background: $light-grey url("../img/debut_light.png") repeat;
+}
+
+h3{
+	line-height: 30px;
+}
+
+@import "flat";
+@import "nav";
+@import "gallery";
+@import "widgets";
+@import "portfolio";
+
+#sectionHeaderBackground{
+	background: $spottsfield;
+	color:$white;
+	margin-bottom: 20px;
+
+	#sectionHeader{
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		h1{
+			margin: 0px;
+		}
+
+		h1 a{
+			color: $white;
+		}
+
+		.navbar-form {
+			margin-top: 5px;
+
+			input{
+				margin: 0px;
+			}
+		}
+
+	}
+}
+
+#coverBackground{
+	background: $spottsfield;
+
+	margin-bottom: 20px;
+
+	.hero-unit{
+		background: none;
+		border-radius: 0px;
+		margin-bottom: 0px;
+		color: $white;
+		padding: 40px 0px;
+
+		a{
+			color: $white;
+			border-bottom: 1px dashed $white;
+		}
+
+		a:hover {
+			color: $light-grey;
+			text-decoration: none;
+			border-bottom: 1px dashed $white;
+
+		}
+	}
+	h2{
+		margin-bottom: 5px;
+		font-weight: normal;
+	}
+
+	h3{	
+		font-weight: normal;
+		margin-top: 20px;
+		line-height: 1.4em;
+	}
+}
+
+aside.featuredProject{
+	margin-top: -60px;
+	background: $white;
+	border-radius: 5px;
+
+	h4{
+		padding:0px 10px;
+	}
+}
+
+article{
+	background: $white;
+
+	.content p{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.postDate{
+		padding-left: 20px;
+		margin-bottom: 20px;
+	}
+
+	.postTags{
+		padding-left: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+div.post{
+	background: $white;
+	margin-bottom: 40px;
+	border-bottom: 1px solid $grey;
+
+	div.postHeader{
+		padding: 0px 20px 10px;
+
+		.postMeta{
+			padding: 10px 0px 0px;
+			margin: 0px;
+			background: $white;
+			display: block;
+		}
+
+		h2{
+			padding: 0px 0px 5px;
+			margin: 0px;
+			border-bottom: 1px solid $light-grey;
+		}
+	}
+	
+	div.postDate{
+		padding: 0px 20px 10px;
+		font-size: .8em;
+		font-style: italic;
+
+	}
+	div.postEntry{
+		padding: 0px 20px 20px;
+	}
+}
+
+	/* @group isotope */
+
+	.item{
+		margin-bottom: 30px;
+	}
+	
+	/**** Isotope Filtering ****/
+	
+	.isotope-item {
+	  z-index: 2;
+	}
+	
+	.isotope-hidden.isotope-item {
+	  pointer-events: none;
+	  z-index: 1;
+	}
+	
+	/**** Isotope CSS3 transitions ****/
+	
+	.isotope,
+	.isotope .isotope-item {
+	  -webkit-transition-duration: 0.8s;
+	     -moz-transition-duration: 0.8s;
+	      -ms-transition-duration: 0.8s;
+	       -o-transition-duration: 0.8s;
+	          transition-duration: 0.8s;
+	}
+	
+	.isotope {
+	  -webkit-transition-property: height, width;
+	     -moz-transition-property: height, width;
+	      -ms-transition-property: height, width;
+	       -o-transition-property: height, width;
+	          transition-property: height, width;
+	}
+	
+	.isotope .isotope-item {
+	  background: $white;
+	  -webkit-transition-property: -webkit-transform, opacity;
+	     -moz-transition-property:    -moz-transform, opacity;
+	      -ms-transition-property:     -ms-transform, opacity;
+	       -o-transition-property:      -o-transform, opacity;
+	          transition-property:         transform, opacity;
+	}
+
+	.thumbnail:hover{
+		text-decoration: none;
+			.item-title{
+				color: #006699;
+				-webkit-transition-property: -webkit-transform, opacity;
+	     		   -moz-transition-property:    -moz-transform, opacity;
+	                -ms-transition-property:     -ms-transform, opacity;
+	                 -o-transition-property:      -o-transform, opacity;
+	                    transition-property:         transform, opacity;
+			}
+	}
+	
+	/**** disabling Isotope CSS3 transitions ****/
+	
+	.isotope.no-transition,
+	.isotope.no-transition .isotope-item,
+	.isotope .isotope-item.no-transition {
+	  -webkit-transition-duration: 0s;
+	     -moz-transition-duration: 0s;
+	      -ms-transition-duration: 0s;
+	       -o-transition-duration: 0s;
+	          transition-duration: 0s;
+	}
+	
+	/* @end */
+
+	@import "resume";
+
+
+.footer-top{
+	margin-bottom: 15px;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {  }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+	.navbar-inner{
+		padding:0px 10px;
+	}
+ }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	body{
+		padding: 0px;
+	}
+
+	.container{
+		padding: 0px 20px;
+	}
+
+	.navbar-inner{
+		padding:0px 5px;
+	}
+
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+
+	.footer-bottom{
+		.pull-right{
+			float: left;
+		}
+	}
+}

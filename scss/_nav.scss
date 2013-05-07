@@ -1,0 +1,59 @@
+#navBackground{
+	background: $white;
+}
+
+.navbar{
+	margin-bottom: 0px
+}
+
+.navbar .navbar-inner{
+	background: none;
+	border: none;
+	box-shadow: none;	
+	padding-right:5px;
+
+	a.brand{
+		padding: 1em 0em;
+		font-size: 2em;
+	}
+
+	ul.nav>li>a{
+		font-size: 1.2em;
+		padding: 30px 30px;
+	}
+
+	ul.nav>li.active>a{
+		background: $spottsfield;
+		box-shadow: none;
+		text-shadow: none;
+		color: $white;
+
+	}
+}
+
+.navbar .navbar-form.input-prepend .btn, 
+.navbar .navbar-form.input-append .btn {
+	margin-top: 5px;
+}
+
+#filters.nav{
+	margin-top:15px;
+	margin-bottom: 10px;
+}
+
+#filters.nav li a{
+	color: $white;
+}
+
+#filters.nav li a.selected{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: $white;
+	color: $spottsfield;
+}
+

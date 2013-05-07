@@ -1,0 +1,91 @@
+//colors
+
+$red : red;
+$white : #fff;
+$blue: #006699;
+$link: #2a81a8;
+$link-active: #005580;
+$spottsfield-logo: #4F7FA7;
+$spottsfield: #2a81a8;
+$light-grey: #efefef;
+$grey : #ddd;
+$dark-grey: #999;
+
+//typography
+
+@mixin font-stack-brand {
+	font-family: sans-serif;
+}
+
+@mixin font-stack-headers {
+	font-family: sans-serif;
+}
+
+@mixin font-stack-body {
+	font-family: sans-serif;
+}
+
+
+//sections 
+
+.featuredProject .item{
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom: 10px;
+}
+
+.categoryListing a{
+	color: $white;
+}
+
+#filters.nav.nav-pills{
+	margin: 0px;
+	margin-top:5px;
+}
+
+.item{
+	background: $white;
+}
+
+.item h4{
+	margin-bottom: 5px;
+}
+
+.wellWhite{
+	background: $white;
+}
+
+.louBox{
+	border-bottom: 1px solid $light-grey;
+	padding-bottom: 10px;
+}
+
+.contactList{
+	list-style: none;
+	margin-left:0px;
+}
+
+.contactList li{
+	margin-bottom:10px;
+}
+
+.contactList li .label{
+	margin-right:5px;
+}
+
+.louContact{
+	padding-top:10px;
+}
+
+.socialList{
+	list-style: none;
+}
+
+.socialList li{
+	width: 32px;
+	height: 32px;
+}
+
+.socialList .ico_Dribble{
+	
+}

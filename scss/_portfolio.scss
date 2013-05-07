@@ -1,0 +1,32 @@
+#sectionHeader h1{
+	font-size: 2.3em;
+}
+
+.portImg{
+	margin-bottom: 20px
+}
+
+.portInfo{
+	border-top: 1px solid $grey;
+	padding: 10px 0px;
+}
+
+.firstImg{
+	margin-top: -50px;
+}
+
+.client a{
+	color: $white;
+	text-decoration: none;
+}
+
+.client a:hover{
+	text-decoration: underline;
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 959px) { 
+	.firstImg{
+		margin-top: 0px;
+	}
+}

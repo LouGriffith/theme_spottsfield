@@ -1,0 +1,56 @@
+.btn {
+	display: inline-block;
+	padding: 4px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 20px;
+	color: $link;
+	text-align: center;
+	text-shadow: none;
+	vertical-align: middle;
+	cursor: pointer;
+	background: none;
+	border: none;
+	border-color: none;
+	border-color: none;
+	border-bottom-color: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.btn:hover{
+	color: $link-active;
+	text-decoration: none;
+	background-color: #eee;	
+}
+
+.btn:hover{
+	color: $link-active;
+	text-decoration: none;
+	background-color: #eee;	
+}
+
+li.active .btn{
+	color: $white;
+	background: $link;
+}
+
+#sectionHeader .btn{
+	color: $white;
+	background-color: $link;
+	background-image: none;
+	background-repeat: repeat-x;
+}
+
+#sectionHeader .btn:hover{
+	color: $link;
+	background-color: #f5f5f5;
+	background-image: none;
+	background-repeat: repeat-x;
+}
